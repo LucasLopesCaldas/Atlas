@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4af353c7a90a9341b6cf3e2bed00d4c, type: 3}
+  m_Name: DefaultKeyMap
+  m_EditorClassIdentifier: 
+  pointers:
+  - name: Undo
+    keys:
+    - name: Key
+      keyCode: 306
+      mode: 0
+    - name: Key
+      keyCode: 122
+      mode: 1
+    - name: Key
+      keyCode: 304
+      mode: 3
+    action: undo
+  - name: Redo
+    keys:
+    - name: Key
+      keyCode: 304
+      mode: 0
+    - name: Key
+      keyCode: 306
+      mode: 0
+    - name: Key
+      keyCode: 122
+      mode: 1
+    action: redo
+  - name: Action-Down
+    keys:
+    - name: Key
+      keyCode: 323
+      mode: 1
+    action: action-down
+  - name: Action-Up
+    keys:
+    - name: Key
+      keyCode: 323
+      mode: 2
+    action: action-up
+  - name: Action
+    keys:
+    - name: Key
+      keyCode: 323
+      mode: 0
+    action: action
+  - name: Look
+    keys:
+    - name: Key
+      keyCode: 324
+      mode: 0
+    action: look
+  - name: Look-Down
+    keys:
+    - name: Key
+      keyCode: 324
+      mode: 1
+    action: look-down
